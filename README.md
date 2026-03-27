@@ -2,13 +2,8 @@
 
 <div align="center">
 
-# 📱 React Native Learning Projects
-
-![Lessons](https://img.shields.io/badge/Lessons-40%2F294-a47148?style=for-the-badge&logo=react)
-![Progress](https://img.shields.io/badge/Progress-13.6%25-d4a373?style=for-the-badge)
-![Module 1](https://img.shields.io/badge/Module%201-Completed-6c8a5b?style=for-the-badge)
-
-<img src="https://progress-bar.dev/14/?title=Course%20Progress&width=520&color=d4a373" alt="Course Progress" />
+![Lessons](https://img.shields.io/badge/Lessons-40%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-13.6%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -32,12 +27,13 @@ npx expo start
 
 ## Updates
 
-- **Module 1 - React Native Basics** _(Started at 25/03/2026 · Completed at 28/03/2026)_
+- Started at **25/03/2026**
+- ![Module 1](https://img.shields.io/badge/Module%201-Completed-6c8a5b?style=for-the-badge)**React Native Basics** ( Completed at 28/03/2026)\_
 
 ### What I learned
 
 - Styling with `StyleSheet`
-- Using core React Native components like `View`, `Text`, `TextInput`, `Button`, `Pressable`, and `FlatList`
+- Using core React Native components like `View`, `Text`, `TextInput`, `Button`, `Pressable`,`ScrollableView` and `FlatList`
 - Managing state with `useState`
 - Rendering and updating dynamic lists
 - Splitting the app into reusable components
