@@ -27,8 +27,11 @@ npx expo start
 
 ## Updates
 
-- Started at **25/03/2026**
-- ![Module 1](https://img.shields.io/badge/Module%201-Completed-6c8a5b?style=for-the-badge)**React Native Basics** ( Completed at 28/03/2026)\_
+- ![Started](https://img.shields.io/badge/Started%20At-25/03/2026-00C3D1?style=for-the-badge)
+
+#### <u>28/03/2026</u>
+
+- ![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics%20Completed-6c8a5b?style=for-the-badge)
 
 ### What I learned
 
