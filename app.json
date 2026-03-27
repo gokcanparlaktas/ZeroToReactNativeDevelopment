@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RNCourse",
-    "slug": "RNCourse",
+    "name": "CafeHistory",
+    "slug": "CafeHistory",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/image/cafe.png",
@@ -24,7 +24,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/image/cafe.png"
     }
   }
 }
