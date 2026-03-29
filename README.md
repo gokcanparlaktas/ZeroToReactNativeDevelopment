@@ -64,7 +64,7 @@ npx expo start
 - Improved button behavior with `Pressable`
 - Enhanced the UI with linear gradients and background images
 
-### Project Practice
+## Project Practice
 
 **Project 1 – Cafe Notes App**
 
