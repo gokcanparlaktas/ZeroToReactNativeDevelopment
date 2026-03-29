@@ -29,11 +29,14 @@ npx expo start
 
 - ![Started](https://img.shields.io/badge/Started%20At-25/03/2026-00C3D1?style=for-the-badge)
 
-#### <u>28/03/2026</u>
+#### <u>Ongoing</u>
+- ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=7a5af8&style=for-the-badge)
 
-- ![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics%20Completed-6c8a5b?style=for-the-badge)
-- ![Module 2](https://img.shields.io/static/v1?label=Module%202&message=Debugging%20React%20Native%20Apps%20Completed&color=6c8a5b&style=for-the-badge)
-- ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling%20-%20Building%20a%20Mini-Game...%20Ongoing&color=7a5af8&style=for-the-badge)
+#### <u>Completed</u>
+
+- ![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics-6c8a5b?style=for-the-badge)
+- ![Module 2](https://img.shields.io/static/v1?label=Module%202&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)
+
 
 ### What I learned
 
