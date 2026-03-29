@@ -32,16 +32,32 @@ npx expo start
 #### <u>28/03/2026</u>
 
 - ![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics%20Completed-6c8a5b?style=for-the-badge)
+- ![Module 2](https://img.shields.io/static/v1?label=Module%202&message=Debugging%20React%20Native%20Apps%20Completed&color=6c8a5b&style=for-the-badge)
+- ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling%20-%20Building%20a%20Mini-Game...%20Ongoing&color=7a5af8&style=for-the-badge)
 
 ### What I learned
 
 - Styling with `StyleSheet`
-- Using core React Native components like `View`, `Text`, `TextInput`, `Button`, `Pressable`,`ScrollableView` and `FlatList`
+- Using core React Native components like `View`, `Text`, `TextInput`, `Button`, `Pressable`, `ScrollView` and `FlatList`
 - Managing state with `useState`
 - Rendering and updating dynamic lists
 - Splitting the app into reusable components
 - Passing data and functions with props
 - Using `Modal` for input handling
+- Handling errors in React Native apps
+- Logging to the console for debugging
+- Debugging JavaScript remotely
+- Using the React DevTools
+- Using the documentation effectively
+- Creating custom buttons
+- Styling for Android & iOS
+- Styling the `Number Input` element
+- Configuring the `TextInput` field
+- Adding visual feedback to buttons
+- Improving the buttons
+- Coloring the components and the overall app
+- Adding a linear gradient
+- Adding a background image
 
 ### Project Practice
 
