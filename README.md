@@ -66,11 +66,26 @@ npx expo start
 
 ### Project Practice
 
+**Project 1 – Cafe Notes App**
+
 In this module, I first built a simple **to-do app** as part of the course practice.  
-After that, I customized it and turned it into a **cafe notes app** where I can save:
+I then customized it and turned it into a **cafe notes app** where I can save:
 
 - cafe names
 - good sides
 - bad sides
 
-I also updated the design to give it a more personalized notebook-style look.
+I also updated the design to give it a more personalized, notebook-style look.
+
+**Project 2 – Mini Number Guessing Game**
+
+As a second project, I started building a **mini number guessing game**.  
+So far, I have focused on designing and improving the UI. In this project, I:
+
+- built a custom button component using `Pressable` instead of the default `Button`
+- enhanced the background with a `LinearGradient` and a background image
+- configured the `TextInput` to accept numbers only and limited the input length
+- improved the styling of the input and other UI elements
+- applied conditional styling to `Pressable` using a ternary expression based on its pressed state
+
+The game logic will be added next.
