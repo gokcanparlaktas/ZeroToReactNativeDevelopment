@@ -34,7 +34,7 @@ npx expo start
 
 #### <u>Completed</u>
 
-![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics-6c8a5b?style=for-the-badge)
+![Module 1](https://img.shields.io/badge/Module%201-React%20Native%20Basics-6c8a5b?style=for-the-badge)<br>
 ![Module 2](https://img.shields.io/static/v1?label=Module%202&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)
 
 
@@ -54,13 +54,10 @@ npx expo start
 - Using the documentation effectively
 - Creating custom buttons
 - Styling for Android & iOS
-- Styling the `Number Input` element
-- Configuring the `TextInput` field
+- Styling and configuring the `TextInput` element
 - Adding visual feedback to buttons
-- Improving the buttons
-- Coloring the components and the overall app
-- Adding a linear gradient
-- Adding a background image
+- Improving the buttons with `Pressable` component
+- Adding a linear gradient and background image
 
 ### Project Practice
 
