@@ -38,7 +38,7 @@ npx expo start
 ![Module 2](https://img.shields.io/static/v1?label=Module%202&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)
 
 
-### What I learned
+## What I learned
 
 ### React Native Fundamentals
 - Worked with core React Native components such as `View`, `Text`, `TextInput`, `Button`, `Pressable`, `ScrollView`, and `FlatList`
