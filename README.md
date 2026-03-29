@@ -40,24 +40,29 @@ npx expo start
 
 ### What I learned
 
-- Styling with `StyleSheet`
-- Using core React Native components like `View`, `Text`, `TextInput`, `Button`, `Pressable`, `ScrollView` and `FlatList`
-- Managing state with `useState`
-- Rendering and updating dynamic lists
-- Splitting the app into reusable components
-- Passing data and functions with props
-- Using `Modal` for input handling
-- Handling errors in React Native apps
-- Logging to the console for debugging
-- Debugging JavaScript remotely
-- Using the React DevTools
-- Using the documentation effectively
-- Creating custom buttons
-- Styling for Android & iOS
-- Styling and configuring the `TextInput` element
-- Adding visual feedback to buttons
-- Improving the buttons with `Pressable` component
-- Adding a linear gradient and background image
+### React Native Fundamentals
+- Worked with core React Native components such as `View`, `Text`, `TextInput`, `Button`, `Pressable`, `ScrollView`, and `FlatList`
+- Managed app state with `useState`
+- Built reusable components for better code organization
+- Passed data and event handlers through props
+- Rendered and updated dynamic lists
+- Used `Modal` for user input handling
+
+### Debugging & Development
+- Handled runtime errors in React Native apps
+- Used console logging for debugging
+- Debugged JavaScript remotely
+- Inspected app behavior with React DevTools
+- Used official documentation effectively during development
+
+### Styling & UI
+- Styled components with `StyleSheet`
+- Applied platform-specific styling for Android and iOS
+- Styled and configured the `TextInput` element
+- Created custom buttons
+- Added visual feedback to button interactions
+- Improved button behavior with `Pressable`
+- Enhanced the UI with linear gradients and background images
 
 ### Project Practice
 
