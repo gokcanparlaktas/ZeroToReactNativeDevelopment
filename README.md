@@ -35,7 +35,7 @@ npx expo start
 
 #### <u>Ongoing</u>
 
-![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20&%20Device%20Sizes&color=7a5af8&style=for-the-badge)
+![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=7a5af8&style=for-the-badge)
 
 ### <u>Completed</u>
 
