@@ -52,15 +52,15 @@ npx expo start
 - Lifted state up through props to share data and actions between components
 - Switched screens programmatically without using a routing library
 - Rendered and updated dynamic lists
-- Logged and displayed each game round step by step
-- Generated random numbers and narrowed the guessing range after each user response
-- Prevented invalid game flow by checking whether the user gives misleading higher/lower hints
+- Managed state changes across multiple user interactions
+- Built conditional logic to update the UI and app flow dynamically
+- Added input validation and safeguards against inconsistent user actions
 - Used `Alert` for warnings and user feedback
 - Added restart logic to reset the game state cleanly
 
 ### Component Structure & Organization
 
-- Split components based on purpose, such as `ui` and `game`
+- Improved project structure by organizing components based on their responsibilities
 - Built reusable UI components for cleaner and more maintainable code
 - Passed data and event handlers through props
 - Managed shared styling values with constants such as global color definitions
@@ -99,6 +99,7 @@ I then customized it and turned it into a **cafe notes app** where I can save:
 - bad sides
 
 I also updated the design to give it a more personalized, notebook-style look.
+This project helped me get started with React Native and introduced me to the basics of **state management**, **layout structure**, and **core UI design**.
 
 **Project 2 – Mini Number Guessing Game**
 
@@ -123,4 +124,4 @@ In this project, I focused on both the **game logic** and the **UI improvements*
 - logged every round and displayed the round history with `FlatList`
 - separated components and files by purpose, such as `ui`, `game`, and `constants`
 
-This project helped me better understand how **state**, **props**, **conditional rendering**, **game logic**, and **UI organization** work together in a React Native app.
+This project helped me better understand how **state**, **props**, **conditional rendering** and **UI organization** work together in a React Native app.
