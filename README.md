@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-59%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-20.06%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-80%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-27.21%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -13,9 +13,9 @@ The goal is to practice and apply key concepts such as mobile UI development, na
 
 I will continue to update this repository as I progress through the course.
 
-> ## My Rule for This Course
->
-> I will not use AI as part of this course, and I will not copy-paste code — except for CSS 😄
+## My Rule for This Course
+
+- I will not use AI as part of this course, and I will not copy-paste code — except for CSS 🤞😄
 
 ## 🛠️ Tech Stack
 
