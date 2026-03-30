@@ -15,7 +15,7 @@ I will continue to update this repository as I progress through the course.
 
 ## My Rule for This Course
 
-- I will not use AI as part of this course, and I will not copy-paste code — except for CSS 🤞😄
+- I will write the code myself and avoid AI-generated code, vibecoding or code suggestions during this course — except for CSS 🤞😄
 
 ## 🛠️ Tech Stack
 
