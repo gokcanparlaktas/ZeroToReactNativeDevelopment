@@ -45,7 +45,7 @@ npx expo start
 
 ## 📚 What I Learned
 
-### React Native Fundamentals
+### ⚛️ React Native Fundamentals
 
 - Worked with core React Native components such as `View`, `Text`, `TextInput`, `Image`, `Button`, `Pressable`, `ScrollView`, and `FlatList`
 - Managed app state using `useState` and `useEffect`
@@ -57,23 +57,32 @@ npx expo start
 - Added input validation and safeguards against inconsistent user actions
 - Used `Alert` for warnings and user feedback
 - Added restart logic to reset the game state cleanly
+- Built dynamic UI behavior based on device data (screen size & orientation)
 
-### Component Structure & Organization
+---
+
+### 🧩 Component Structure & Organization
 
 - Improved project structure by organizing components based on their responsibilities
 - Built reusable UI components for cleaner and more maintainable code
 - Passed data and event handlers through props
 - Managed shared styling values with constants such as global color definitions
+- Created modular and scalable component structures for better code readability
 
-### Debugging & Development
+---
+
+### 🐞 Debugging & Development
 
 - Handled runtime errors in React Native applications
 - Used `console.log()` for debugging
 - Performed remote JavaScript debugging
 - Inspected app behavior with React DevTools
 - Improved problem-solving by using the official documentation effectively
+- Debugged layout and rendering issues across different screen sizes and devices
 
-### Styling & UI
+---
+
+### 🎨 Styling & UI
 
 - Styled components with `StyleSheet`
 - Applied platform-aware layout improvements with `SafeAreaView`
@@ -86,6 +95,22 @@ npx expo start
 - Added and used custom fonts in the app
 - Used nested `Text` components for inline text styling similar to `span`
 - Integrated a splash screen while loading assets such as fonts
+- Managed layout responsiveness using **Dimensions API**
+- Used **useWindowDimensions hook** for dynamic UI updates on orientation change
+- Handled keyboard overlap issues using **KeyboardAvoidingView (iOS)**
+- Implemented adaptive layouts for **portrait and landscape modes**
+- Styled and configured the **Status Bar** (light / dark / automatic modes)
+
+---
+
+### 📱 Platform-Specific Development
+
+- Used **Platform API** to apply platform-specific logic and styling
+- Created platform-based conditional styling using `Platform.OS`
+- Built separate platform-specific components:
+  - `Component.ios.js`
+  - `Component.android.js`
+- Optimized UI behavior for both **iOS and Android environments**
 
 ## Project Practice
 
