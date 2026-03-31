@@ -150,3 +150,25 @@ In this project, I focused on both the **game logic** and the **UI improvements*
 - separated components and files by purpose, such as `ui`, `game`, and `constants`
 
 This project helped me better understand how **state**, **props**, **conditional rendering** and **UI organization** work together in a React Native app.
+
+**Project 3 – Adaptive UI & Responsive Enhancements**
+
+Building on the foundation of the previous project, I extended the mini number guessing game by focusing on **responsive design, device adaptability, and platform-specific behavior**.
+
+In this module, I improved the application by making the UI **adaptive to different screen sizes, orientations, and platforms**. I:
+
+- used the **Dimensions API** to retrieve device width and height
+- applied conditional logic (`if` statements) based on screen size and orientation
+- adapted layouts dynamically for **portrait and landscape modes**
+- used the **useWindowDimensions hook** to automatically update the UI on orientation changes
+- rendered different UI structures in the same screen depending on device orientation
+- handled keyboard overlap issues using **KeyboardAvoidingView (iOS)**
+- improved user experience by preventing layout conflicts with the keyboard
+- used the **Platform API** to apply platform-specific logic and styling
+- created conditional styles based on platform differences (iOS vs Android)
+- built platform-specific components:
+  - `Component.ios.js`
+  - `Component.android.js`
+- improved layout flexibility and responsiveness across different devices
+
+This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
