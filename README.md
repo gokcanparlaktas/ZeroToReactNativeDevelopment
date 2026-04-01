@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-80%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-27.21%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-91%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-31.01%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -35,17 +35,18 @@ npx expo start
 
 #### <u>Ongoing</u>
 
-![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=7a5af8&style=for-the-badge)
+![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=7a5af8&style=for-the-badge)
 
 ### <u>Completed</u>
 
 ![Module 2](https://img.shields.io/badge/Module%202-React%20Native%20Basics-6c8a5b?style=for-the-badge)  
 ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)  
-![Module 4](https://img.shields.io/static/v1?label=Module%204&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=6c8a5b&style=for-the-badge)
+![Module 4](https://img.shields.io/static/v1?label=Module%204&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=6c8a5b&style=for-the-badge)  
+![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=6c8a5b&style=for-the-badge)
 
 ## 📚 What I Learned
 
-### React Native Fundamentals
+### ⚛️ React Native Fundamentals
 
 - Worked with core React Native components such as `View`, `Text`, `TextInput`, `Image`, `Button`, `Pressable`, `ScrollView`, and `FlatList`
 - Managed app state using `useState` and `useEffect`
@@ -57,23 +58,32 @@ npx expo start
 - Added input validation and safeguards against inconsistent user actions
 - Used `Alert` for warnings and user feedback
 - Added restart logic to reset the game state cleanly
+- Built dynamic UI behavior based on device data (screen size & orientation)
 
-### Component Structure & Organization
+---
+
+### 🧩 Component Structure & Organization
 
 - Improved project structure by organizing components based on their responsibilities
 - Built reusable UI components for cleaner and more maintainable code
 - Passed data and event handlers through props
 - Managed shared styling values with constants such as global color definitions
+- Created modular and scalable component structures for better code readability
 
-### Debugging & Development
+---
+
+### 🐞 Debugging & Development
 
 - Handled runtime errors in React Native applications
 - Used `console.log()` for debugging
 - Performed remote JavaScript debugging
 - Inspected app behavior with React DevTools
 - Improved problem-solving by using the official documentation effectively
+- Debugged layout and rendering issues across different screen sizes and devices
 
-### Styling & UI
+---
+
+### 🎨 Styling & UI
 
 - Styled components with `StyleSheet`
 - Applied platform-aware layout improvements with `SafeAreaView`
@@ -86,6 +96,22 @@ npx expo start
 - Added and used custom fonts in the app
 - Used nested `Text` components for inline text styling similar to `span`
 - Integrated a splash screen while loading assets such as fonts
+- Managed layout responsiveness using **Dimensions API**
+- Used **useWindowDimensions hook** for dynamic UI updates on orientation change
+- Handled keyboard overlap issues using **KeyboardAvoidingView (iOS)**
+- Implemented adaptive layouts for **portrait and landscape modes**
+- Styled and configured the **Status Bar** (light / dark / automatic modes)
+
+---
+
+### 📱 Platform-Specific Development
+
+- Used **Platform API** to apply platform-specific logic and styling
+- Created platform-based conditional styling using `Platform.OS`
+- Built separate platform-specific components:
+  - `Component.ios.js`
+  - `Component.android.js`
+- Optimized UI behavior for both **iOS and Android environments**
 
 ## Project Practice
 
@@ -125,3 +151,25 @@ In this project, I focused on both the **game logic** and the **UI improvements*
 - separated components and files by purpose, such as `ui`, `game`, and `constants`
 
 This project helped me better understand how **state**, **props**, **conditional rendering** and **UI organization** work together in a React Native app.
+
+**Project 3 – Adaptive UI & Responsive Enhancements**
+
+Building on the foundation of the previous project, I extended the mini number guessing game by focusing on **responsive design, device adaptability, and platform-specific behavior**.
+
+In this module, I improved the application by making the UI **adaptive to different screen sizes, orientations, and platforms**. I:
+
+- used the **Dimensions API** to retrieve device width and height
+- applied conditional logic (`if` statements) based on screen size and orientation
+- adapted layouts dynamically for **portrait and landscape modes**
+- used the **useWindowDimensions hook** to automatically update the UI on orientation changes
+- rendered different UI structures in the same screen depending on device orientation
+- handled keyboard overlap issues using **KeyboardAvoidingView (iOS)**
+- improved user experience by preventing layout conflicts with the keyboard
+- used the **Platform API** to apply platform-specific logic and styling
+- created conditional styles based on platform differences (iOS vs Android)
+- built platform-specific components:
+  - `Component.ios.js`
+  - `Component.android.js`
+- improved layout flexibility and responsiveness across different devices
+
+This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
