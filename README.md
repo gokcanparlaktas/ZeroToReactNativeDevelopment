@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-91%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-31.01%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-116%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-44.62%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -35,14 +35,15 @@ npx expo start
 
 #### <u>Ongoing</u>
 
-![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=7a5af8&style=for-the-badge)
+![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=7a5af8&style=for-the-badge)
 
 ### <u>Completed</u>
 
 ![Module 2](https://img.shields.io/badge/Module%202-React%20Native%20Basics-6c8a5b?style=for-the-badge)  
 ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)  
 ![Module 4](https://img.shields.io/static/v1?label=Module%204&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=6c8a5b&style=for-the-badge)  
-![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=6c8a5b&style=for-the-badge)
+![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=6c8a5b&style=for-the-badge)  
+![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=6c8a5b&style=for-the-badge)
 
 ## 📚 What I Learned
 
@@ -113,6 +114,37 @@ npx expo start
   - `Component.android.js`
 - Optimized UI behavior for both **iOS and Android environments**
 
+---
+
+### 🧭 Navigation (React Navigation)
+
+- Used **React Navigation** to manage screen transitions and app flow
+- Implemented different navigator types:
+  - **Stack Navigator**
+  - **Drawer Navigator**
+  - **Bottom Tab Navigator**
+- Combined multiple navigators using **nested navigation structures** (Stack + Drawer, etc.)
+
+- Configured navigation behavior using:
+  - `screenOptions`
+  - `options` on navigators and screens
+- Customized navigation UI:
+  - Styled **headers, backgrounds, and navigation bars**
+  - Added **header buttons and icons**
+
+- Navigated between screens using `navigation` and **useNavigation hook**
+- Passed and accessed data between screens using:
+  - `route.params`
+  - **useRoute hook**
+
+- Built dynamic screens:
+  - Set **dynamic titles and content** based on route data
+  - Created detail screens with dynamic data rendering
+
+- Displayed images using **URI-based sources**
+
+- Structured scalable navigation architecture for multi-screen applications
+
 ## Project Practice
 
 **Project 1 – Cafe Notes App**
@@ -173,3 +205,33 @@ In this module, I improved the application by making the UI **adaptive to differ
 - improved layout flexibility and responsiveness across different devices
 
 This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
+
+**Project 4 – Meals App (React Native Navigation)**
+
+As another project, I built a **meals listing mobile application** using React Native and React Navigation.  
+In this project, I focused on **navigation architecture**, **dynamic data rendering**, and **UI structure**. I:
+
+- built a multi-screen application using **React Navigation**
+- implemented **Stack Navigator** and **Drawer Navigator** together (nested navigation)
+- displayed meal categories on the main screen and navigated to related meals dynamically
+- fetched and rendered data from a **dummy JSON source**
+- created a structured navigation flow:
+  - Categories → Meals → Meal Details
+
+- passed and accessed data between screens using **route.params**
+- used **useNavigation** and **useRoute** hooks for navigation and data handling
+
+- added a **headerRight favorite button** in the detail screen using dynamic navigation options
+- managed and displayed a **favorites screen** via Drawer Navigation
+
+- styled navigation components:
+  - customized headers, background colors, and drawer styles
+  - added icons using **Ionicons**
+
+- built reusable screen components for better structure and scalability
+- displayed images dynamically using **URI-based sources**
+- configured navigation globally using **screenOptions**
+
+- created a clean and scalable navigation architecture suitable for real-world apps
+
+This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, and build **interactive, user-driven mobile applications** using React Native.
