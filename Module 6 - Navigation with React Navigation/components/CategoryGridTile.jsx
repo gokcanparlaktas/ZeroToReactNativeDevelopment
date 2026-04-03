@@ -1,6 +1,13 @@
-import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
+import {
+  Pressable,
+  View,
+  Text,
+  StyleSheet,
+  Platform,
+  ImageBackground,
+} from "react-native";
 
-function CategoryGridTile({ title, color, onPress }) {
+function CategoryGridTile({ title, imageUrl, onPress }) {
   return (
     <View style={styles.gridItem}>
       <Pressable
@@ -11,9 +18,15 @@ function CategoryGridTile({ title, color, onPress }) {
         ]}
         onPress={onPress}
       >
-        <View style={[styles.innerContainer, { backgroundColor: color }]}>
-          <Text style={styles.title}>{title}</Text>
-        </View>
+        <ImageBackground
+          source={{ uri: imageUrl }}
+          style={styles.innerContainer}
+          imageStyle={styles.backgroundImage}
+        >
+          <View style={styles.overlay}>
+            <Text style={styles.title}>{title}</Text>
+          </View>
+        </ImageBackground>
       </Pressable>
     </View>
   );
@@ -43,13 +56,25 @@ const styles = StyleSheet.create({
   },
   innerContainer: {
     flex: 1,
-    padding: 16,
-    borderRadius: 8,
     justifyContent: "center",
     alignItems: "center",
+  },
+  backgroundImage: {
+    borderRadius: 8,
+  },
+  overlay: {
+    flex: 1,
+    width: "100%",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.28)",
+    borderRadius: 8,
+    padding: 16,
   },
   title: {
     fontWeight: "bold",
     fontSize: 18,
+    color: "white",
+    textAlign: "center",
   },
 });
