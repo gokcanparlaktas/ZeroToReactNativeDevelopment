@@ -113,6 +113,8 @@ npx expo start
   - `Component.android.js`
 - Optimized UI behavior for both **iOS and Android environments**
 
+---
+
 ### 🧭 Navigation (React Navigation)
 
 - Used **React Navigation** to manage screen transitions and app flow
@@ -202,3 +204,33 @@ In this module, I improved the application by making the UI **adaptive to differ
 - improved layout flexibility and responsiveness across different devices
 
 This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
+
+**Project 4 – Meals App (React Native Navigation)**
+
+As another project, I built a **meals listing mobile application** using React Native and React Navigation.  
+In this project, I focused on **navigation architecture**, **dynamic data rendering**, and **UI structure**. I:
+
+- built a multi-screen application using **React Navigation**
+- implemented **Stack Navigator** and **Drawer Navigator** together (nested navigation)
+- displayed meal categories on the main screen and navigated to related meals dynamically
+- fetched and rendered data from a **dummy JSON source**
+- created a structured navigation flow:
+  - Categories → Meals → Meal Details
+
+- passed and accessed data between screens using **route.params**
+- used **useNavigation** and **useRoute** hooks for navigation and data handling
+
+- added a **headerRight favorite button** in the detail screen using dynamic navigation options
+- managed and displayed a **favorites screen** via Drawer Navigation
+
+- styled navigation components:
+  - customized headers, background colors, and drawer styles
+  - added icons using **Ionicons**
+
+- built reusable screen components for better structure and scalability
+- displayed images dynamically using **URI-based sources**
+- configured navigation globally using **screenOptions**
+
+- created a clean and scalable navigation architecture suitable for real-world apps
+
+This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, and build **interactive, user-driven mobile applications** using React Native.
