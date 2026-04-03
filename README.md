@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-91%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-31.01%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-115%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-39.12%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -112,6 +112,35 @@ npx expo start
   - `Component.ios.js`
   - `Component.android.js`
 - Optimized UI behavior for both **iOS and Android environments**
+
+### 🧭 Navigation (React Navigation)
+
+- Used **React Navigation** to manage screen transitions and app flow
+- Implemented different navigator types:
+  - **Stack Navigator**
+  - **Drawer Navigator**
+  - **Bottom Tab Navigator**
+- Combined multiple navigators using **nested navigation structures** (Stack + Drawer, etc.)
+
+- Configured navigation behavior using:
+  - `screenOptions`
+  - `options` on navigators and screens
+- Customized navigation UI:
+  - Styled **headers, backgrounds, and navigation bars**
+  - Added **header buttons and icons**
+
+- Navigated between screens using `navigation` and **useNavigation hook**
+- Passed and accessed data between screens using:
+  - `route.params`
+  - **useRoute hook**
+
+- Built dynamic screens:
+  - Set **dynamic titles and content** based on route data
+  - Created detail screens with dynamic data rendering
+
+- Displayed images using **URI-based sources**
+
+- Structured scalable navigation architecture for multi-screen applications
 
 ## Project Practice
 
