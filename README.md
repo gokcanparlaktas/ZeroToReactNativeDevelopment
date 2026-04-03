@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-115%2F294-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-39.12%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-116%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-44.62%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
