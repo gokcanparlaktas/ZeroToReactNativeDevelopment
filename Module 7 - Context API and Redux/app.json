@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Module7",
+    "slug": "Module7",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#24180f",
+    "icon": "./assets/redux.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/redux.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/redux.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/redux.png"
+    }
+  }
+}
