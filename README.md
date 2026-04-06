@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-116%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-44.62%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-126%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-48.46%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -35,7 +35,7 @@ npx expo start
 
 #### <u>Ongoing</u>
 
-![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=7a5af8&style=for-the-badge)
+![Module 8](https://img.shields.io/static/v1?label=Module%208&message=Practice-Expense%20Tracker%20App&color=7a5af8&style=for-the-badge)
 
 ### <u>Completed</u>
 
@@ -43,7 +43,8 @@ npx expo start
 ![Module 3](https://img.shields.io/static/v1?label=Module%203&message=Debugging%20React%20Native%20Apps&color=6c8a5b&style=for-the-badge)  
 ![Module 4](https://img.shields.io/static/v1?label=Module%204&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=6c8a5b&style=for-the-badge)  
 ![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=6c8a5b&style=for-the-badge)  
-![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=6c8a5b&style=for-the-badge)
+![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=6c8a5b&style=for-the-badge)  
+![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=6c8a5b&style=for-the-badge)
 
 ## 📚 What I Learned
 
@@ -145,6 +146,13 @@ npx expo start
 
 - Structured scalable navigation architecture for multi-screen applications
 
+### 🌍 App-wide State Management (Redux & Context API)
+
+- Learned app-wide state management with **Context API** and **Redux Toolkit**
+- Used **useContext**, **useSelector**, and **useDispatch**
+- Created and managed shared state across multiple screens
+- Built Redux slices and configured a global store with **createSlice** and **configureStore**
+
 ## Project Practice
 
 **Project 1 – Cafe Notes App**
@@ -206,7 +214,7 @@ In this module, I improved the application by making the UI **adaptive to differ
 
 This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
 
-**Project 4 – Meals App (React Native Navigation)**
+**Project 4 – Meals App (React Native Navigation + Redux & ContextAPI at Module 7) **
 
 As another project, I built a **meals listing mobile application** using React Native and React Navigation.  
 In this project, I focused on **navigation architecture**, **dynamic data rendering**, and **UI structure**. I:
@@ -223,6 +231,8 @@ In this project, I focused on **navigation architecture**, **dynamic data render
 
 - added a **headerRight favorite button** in the detail screen using dynamic navigation options
 - managed and displayed a **favorites screen** via Drawer Navigation
+- managed favorite meals across screens using **Context API** and **Redux Toolkit** *(Module 7 Update)*
+- practiced **app-wide state management** for adding and removing favorites *(Module 7 Update)*
 
 - styled navigation components:
   - customized headers, background colors, and drawer styles
@@ -234,4 +244,4 @@ In this project, I focused on **navigation architecture**, **dynamic data render
 
 - created a clean and scalable navigation architecture suitable for real-world apps
 
-This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, and build **interactive, user-driven mobile applications** using React Native.
+This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, build **interactive, user-driven mobile applications** using React Native, and manage shared app state with **Context API** and **Redux Toolkit** *(Module 7 Update)*.
