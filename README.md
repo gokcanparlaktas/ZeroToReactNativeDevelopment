@@ -145,6 +145,7 @@ npx expo start
 - Displayed images using **URI-based sources**
 
 - Structured scalable navigation architecture for multi-screen applications
+---
 
 ### 🌍 App-wide State Management (Redux & Context API)
 
