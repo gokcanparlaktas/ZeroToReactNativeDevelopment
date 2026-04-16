@@ -145,6 +145,7 @@ npx expo start
 - Displayed images using **URI-based sources**
 
 - Structured scalable navigation architecture for multi-screen applications
+---
 
 ### 🌍 App-wide State Management (Redux & Context API)
 
@@ -214,7 +215,7 @@ In this module, I improved the application by making the UI **adaptive to differ
 
 This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
 
-**Project 4 – Meals App (React Native Navigation + Redux & ContextAPI at Module 7) **
+**Project 4 – Meals App (React Native Navigation + Redux & ContextAPI at Module 7)**
 
 As another project, I built a **meals listing mobile application** using React Native and React Navigation.  
 In this project, I focused on **navigation architecture**, **dynamic data rendering**, and **UI structure**. I:
