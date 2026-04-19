@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Lessons](https://img.shields.io/badge/Lessons-126%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
-![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-48.46%25-2e7d32?style=for-the-badge&labelColor=white)
+![Lessons](https://img.shields.io/badge/Lessons-171%2F260-1e3a8a?style=for-the-badge&logo=react&logoColor=1e3a8a&labelColor=white)
+![Progress](https://img.shields.io/badge/%F0%9F%93%88%20Progress-65.77%25-2e7d32?style=for-the-badge&labelColor=white)
 
 </div>
 
@@ -35,7 +35,7 @@ npx expo start
 
 #### <u>Ongoing</u>
 
-![Module 8](https://img.shields.io/static/v1?label=Module%208&message=Practice-Expense%20Tracker%20App&color=7a5af8&style=for-the-badge)
+![Module 11](https://img.shields.io/static/v1?label=Module%2011&message=User%20Authentication&color=7a5af8&style=for-the-badge)
 
 ### <u>Completed</u>
 
@@ -44,7 +44,10 @@ npx expo start
 ![Module 4](https://img.shields.io/static/v1?label=Module%204&message=Diving%20Deeper%20into%20Components%2C%20Layouts%20%26%20Styling&color=6c8a5b&style=for-the-badge)  
 ![Module 5](https://img.shields.io/static/v1?label=Module%205&message=Adapt%20To%20Platform%20%26%20Device%20Sizes&color=6c8a5b&style=for-the-badge)  
 ![Module 6](https://img.shields.io/static/v1?label=Module%206&message=React%20Native%20Navigation%20with%20React%20Navigation&color=6c8a5b&style=for-the-badge)  
-![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=6c8a5b&style=for-the-badge)
+![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=6c8a5b&style=for-the-badge)  
+![Module 8](https://img.shields.io/static/v1?label=Module%208&message=Practice-Expense%20Tracker%20App%20(UI%20%26%20Navigation)&color=6c8a5b&style=for-the-badge)  
+![Module 9](https://img.shields.io/static/v1?label=Module%209&message=Advanced%20User%20Input%20%26%20Form%20Handling&color=6c8a5b&style=for-the-badge)  
+![Module 10](https://img.shields.io/static/v1?label=Module%2010&message=Backend%20Integration%20with%20Axios%20%26%20Firebase&color=6c8a5b&style=for-the-badge)
 
 ## 📚 What I Learned
 
@@ -147,12 +150,40 @@ npx expo start
 - Structured scalable navigation architecture for multi-screen applications
 ---
 
-### 🌍 App-wide State Management (Redux & Context API)
+### 🌍 App-wide State Management (Context API & Redux Toolkit)
 
-- Learned app-wide state management with **Context API** and **Redux Toolkit**
-- Used **useContext**, **useSelector**, and **useDispatch**
-- Created and managed shared state across multiple screens
-- Built Redux slices and configured a global store with **createSlice** and **configureStore**
+- Managed global state using **Context API** and **Redux Toolkit (RTK)**
+- Created and configured a global store using **createSlice** and **configureStore**
+- Used **useSelector** and **useDispatch** for state access and updates
+
+- Initially managed data with **dummy/local state**, then migrated to a backend-driven structure
+- Set and synchronized state with data fetched from the backend via **Axios**
+- Updated UI reactively based on remote data changes
+
+- Stored and updated expenses across multiple screens
+- Implemented adding, updating, and deleting expenses
+- Ensured consistent and predictable state updates across the entire application
+---
+###📝 Form Handling & Validation
+-Built reusable custom input components
+-Created a structured and scalable form system
+-Handled user input in a generic way
+-Managed form state and submission logic
+-Used default values for editing existing data
+-Implemented input validation logic
+-Provided visual validation feedback
+-Added error styling for invalid inputs
+---
+###🔥 Backend Integration (Firebase + Axios)
+-Set up backend using Firebase
+-Installed and used Axios for HTTP requests
+-Sent POST requests to store data
+-Fetched data using GET requests
+-Updated and deleted data with HTTP requests
+-Transformed and used fetched backend data
+-Managed loading states during requests
+-Handled request errors properly
+-Worked with asynchronous data flow
 
 ## Project Practice
 
@@ -246,3 +277,34 @@ In this project, I focused on **navigation architecture**, **dynamic data render
 - created a clean and scalable navigation architecture suitable for real-world apps
 
 This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, build **interactive, user-driven mobile applications** using React Native, and manage shared app state with **Context API** and **Redux Toolkit** *(Module 7 Update)*.
+
+**Project 5 – Expense Tracker App (Full CRUD & Backend Integration)**
+
+In this project, I built a production-ready **expense management mobile application** by completing three intensive modules. The app evolved from a static UI into a fully dynamic system integrated with a cloud backend. This project includes Module 8, 9 and 10.
+
+### 🛠 Phase 1: Core Architecture & Navigation (Module 8)
+- Built a multi-screen application using a hybrid navigation structure with **Bottom Tabs** and **Stack Navigation**.
+- Established the initial app-wide state management using **Context API** to handle data flow across screens.
+- Implemented **programmatic navigation** and handled dynamic data passing via **route parameters**.
+- Designed a clean UI with reusable components, utilizing **FlatList** for efficient data rendering and dynamic date formatting.
+- Added interactive features like **header action buttons** and **tappable list items** for a seamless user flow.
+
+### 📝 Phase 2: Advanced Form Handling & Validation (Module 9)
+- Developed a **custom form engine** from scratch, featuring generic input components for reusable form logic.
+- Managed complex **form state and submission** manually to ensure precise control over user entries.
+- Added **real-time validation** with visual feedback and specialized error styling to prevent invalid data entry.
+- Configured dynamic form modes that automatically switch between **Add** and **Edit** functionality based on the context.
+- Integrated **modal-based editing flows** to enhance the user experience during expense management.
+
+### 🌐 Phase 3: Backend Integration & Async Logic (Module 10)
+- Connected the application to a **Firebase** backend to replace static dummy data with persistent storage.
+- Orchestrated all asynchronous network requests (**GET, POST, PUT, DELETE**) using **Axios**.
+- Dynamically updated the **Context API** state with real-time data fetched from the backend, ensuring the UI stays in sync with the database.
+- Implemented robust UX patterns for asynchronous operations:
+  - **Loading Overlay screens** to manage wait states during data fetching.
+  - **Error Overlay screens** to gracefully handle and display backend communication failures.
+- Transformed raw JSON responses from the server into structured application data.
+
+---
+
+This 3-module development process helped me master the transition from building simple UI components to creating **fully dynamic, backend-connected mobile systems** using **Axios** and **Context API**.
