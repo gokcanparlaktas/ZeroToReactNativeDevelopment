@@ -164,30 +164,37 @@ npx expo start
 - Implemented adding, updating, and deleting expenses
 - Ensured consistent and predictable state updates across the entire application
 ---
-###📝 Form Handling & Validation
--Built reusable custom input components
--Created a structured and scalable form system
--Handled user input in a generic way
--Managed form state and submission logic
--Used default values for editing existing data
--Implemented input validation logic
--Provided visual validation feedback
--Added error styling for invalid inputs
+
+### 📝 Form Handling & Validation
+
+- Built reusable custom input components
+- Created a structured and scalable form system
+- Handled user input in a generic way
+- Managed form state and submission logic
+
+- Used default values for editing existing data
+- Implemented input validation logic
+- Provided visual validation feedback
+- Added error styling for invalid inputs
+
 ---
-###🔥 Backend Integration (Firebase + Axios)
--Set up backend using Firebase
--Installed and used Axios for HTTP requests
--Sent POST requests to store data
--Fetched data using GET requests
--Updated and deleted data with HTTP requests
--Transformed and used fetched backend data
--Managed loading states during requests
--Handled request errors properly
--Worked with asynchronous data flow
+
+### 🔥 Backend Integration (Firebase + Axios)
+
+- Set up backend using Firebase
+- Installed and used Axios for HTTP requests
+- Sent POST requests to store data
+- Fetched data using GET requests
+
+- Updated and deleted data with HTTP requests
+- Transformed and used fetched backend data
+- Managed loading states during requests
+- Handled request errors properly
+- Worked with asynchronous data flow
 
 ## Project Practice
 
-**Project 1 – Cafe Notes App**
+### <u> Project 1 – Cafe Notes App </u>
 
 In this module, I first built a simple **to-do app** as part of the course practice.  
 I then customized it and turned it into a **cafe notes app** where I can save:
@@ -199,7 +206,7 @@ I then customized it and turned it into a **cafe notes app** where I can save:
 I also updated the design to give it a more personalized, notebook-style look.
 This project helped me get started with React Native and introduced me to the basics of **state management**, **layout structure**, and **core UI design**.
 
-**Project 2 – Mini Number Guessing Game**
+### <u> Project 2 – Mini Number Guessing Game </u>
 
 As a second project, I built a **mini number guessing game**.  
 In this project, I focused on both the **game logic** and the **UI improvements**. I:
@@ -224,7 +231,7 @@ In this project, I focused on both the **game logic** and the **UI improvements*
 
 This project helped me better understand how **state**, **props**, **conditional rendering** and **UI organization** work together in a React Native app.
 
-**Project 3 – Adaptive UI & Responsive Enhancements**
+### <u>Project 3 – Adaptive UI & Responsive Enhancements </u>
 
 Building on the foundation of the previous project, I extended the mini number guessing game by focusing on **responsive design, device adaptability, and platform-specific behavior**.
 
@@ -246,7 +253,7 @@ In this module, I improved the application by making the UI **adaptive to differ
 
 This project helped me better understand how to build **adaptive, responsive, and platform-aware mobile applications**
 
-**Project 4 – Meals App (React Native Navigation + Redux & ContextAPI at Module 7)**
+### <u>Project 4 – Meals App (React Native Navigation + Redux & ContextAPI at Module 7)</u>
 
 As another project, I built a **meals listing mobile application** using React Native and React Navigation.  
 In this project, I focused on **navigation architecture**, **dynamic data rendering**, and **UI structure**. I:
@@ -278,25 +285,25 @@ In this project, I focused on **navigation architecture**, **dynamic data render
 
 This project helped me better understand how to design **multi-screen navigation architectures**, handle **dynamic data rendering**, build **interactive, user-driven mobile applications** using React Native, and manage shared app state with **Context API** and **Redux Toolkit** *(Module 7 Update)*.
 
-**Project 5 – Expense Tracker App (Full CRUD & Backend Integration)**
+### <u>Project 5 – Expense Tracker App (Full CRUD & Backend Integration) </u>
 
 In this project, I built a production-ready **expense management mobile application** by completing three intensive modules. The app evolved from a static UI into a fully dynamic system integrated with a cloud backend. This project includes Module 8, 9 and 10.
 
-### 🛠 Phase 1: Core Architecture & Navigation (Module 8)
+#### 🛠 Phase 1: Core Architecture & Navigation (Module 8)
 - Built a multi-screen application using a hybrid navigation structure with **Bottom Tabs** and **Stack Navigation**.
 - Established the initial app-wide state management using **Context API** to handle data flow across screens.
 - Implemented **programmatic navigation** and handled dynamic data passing via **route parameters**.
 - Designed a clean UI with reusable components, utilizing **FlatList** for efficient data rendering and dynamic date formatting.
 - Added interactive features like **header action buttons** and **tappable list items** for a seamless user flow.
 
-### 📝 Phase 2: Advanced Form Handling & Validation (Module 9)
+#### 📝 Phase 2: Advanced Form Handling & Validation (Module 9)
 - Developed a **custom form engine** from scratch, featuring generic input components for reusable form logic.
 - Managed complex **form state and submission** manually to ensure precise control over user entries.
 - Added **real-time validation** with visual feedback and specialized error styling to prevent invalid data entry.
 - Configured dynamic form modes that automatically switch between **Add** and **Edit** functionality based on the context.
 - Integrated **modal-based editing flows** to enhance the user experience during expense management.
 
-### 🌐 Phase 3: Backend Integration & Async Logic (Module 10)
+#### 🌐 Phase 3: Backend Integration & Async Logic (Module 10)
 - Connected the application to a **Firebase** backend to replace static dummy data with persistent storage.
 - Orchestrated all asynchronous network requests (**GET, POST, PUT, DELETE**) using **Axios**.
 - Dynamically updated the **Context API** state with real-time data fetched from the backend, ensuring the UI stays in sync with the database.
@@ -304,7 +311,5 @@ In this project, I built a production-ready **expense management mobile applicat
   - **Loading Overlay screens** to manage wait states during data fetching.
   - **Error Overlay screens** to gracefully handle and display backend communication failures.
 - Transformed raw JSON responses from the server into structured application data.
-
----
 
 This 3-module development process helped me master the transition from building simple UI components to creating **fully dynamic, backend-connected mobile systems** using **Axios** and **Context API**.
