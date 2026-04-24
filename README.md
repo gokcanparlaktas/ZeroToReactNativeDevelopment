@@ -33,9 +33,11 @@ npx expo start
 
 ![Started](https://img.shields.io/badge/Started%20At-25/03/2026-00C3D1?style=for-the-badge)
 
-#### <u>Ongoing</u>
+### <u>Ongoing</u>
 
-![Module 11](https://img.shields.io/static/v1?label=Module%2011&message=User%20Authentication&color=7a5af8&style=for-the-badge)
+![Module 12](https://img.shields.io/static/v1?label=Module%2012&message=Using%20Native%20Device%20Features%20(Camera%2C%20Location%20%26%20More)&color=7a5af8&style=for-the-badge)
+
+---
 
 ### <u>Completed</u>
 
@@ -47,7 +49,8 @@ npx expo start
 ![Module 7](https://img.shields.io/static/v1?label=Module%207&message=App-wide%20State%20Management%20with%20Redux%20%26%20Context%20API&color=6c8a5b&style=for-the-badge)  
 ![Module 8](https://img.shields.io/static/v1?label=Module%208&message=Practice-Expense%20Tracker%20App%20(UI%20%26%20Navigation)&color=6c8a5b&style=for-the-badge)  
 ![Module 9](https://img.shields.io/static/v1?label=Module%209&message=Advanced%20User%20Input%20%26%20Form%20Handling&color=6c8a5b&style=for-the-badge)  
-![Module 10](https://img.shields.io/static/v1?label=Module%2010&message=Backend%20Integration%20with%20Axios%20%26%20Firebase&color=6c8a5b&style=for-the-badge)
+![Module 10](https://img.shields.io/static/v1?label=Module%2010&message=Backend%20Integration%20with%20Axios%20%26%20Firebase&color=6c8a5b&style=for-the-badge)  
+![Module 11](https://img.shields.io/static/v1?label=Module%2011&message=User%20Authentication%20%26%20Security&color=6c8a5b&style=for-the-badge)
 
 ## 📚 What I Learned
 
@@ -192,6 +195,19 @@ npx expo start
 - Handled request errors properly
 - Worked with asynchronous data flow
 
+---
+
+### 🔐 Authentication & Security (Firebase)
+
+- Implemented Firebase Authentication for user signup, login, and session handling
+- Managed authentication flow between frontend and backend
+- Stored authentication tokens securely using AsyncStorage for persistent login
+- Built auto-login functionality using stored credentials
+- Controlled screen access based on authentication state (protected routes / conditional rendering)
+- Implemented logout functionality and session clearing
+- Handled authentication state globally using Context API
+
+
 ## Project Practice
 
 ### <u> Project 1 – Cafe Notes App </u>
@@ -313,3 +329,19 @@ In this project, I built a production-ready **expense management mobile applicat
 - Transformed raw JSON responses from the server into structured application data.
 
 This 3-module development process helped me master the transition from building simple UI components to creating **fully dynamic, backend-connected mobile systems** using **Axios** and **Context API**.
+
+### <u> Project 6 – Login / Register App </u>
+
+In this module, I integrated Firebase for authentications as part of the course practice.  
+
+- Integrated Firebase Authentication for secure user login and signup
+- Managed authentication state across the app using Context API
+- Implemented AsyncStorage-based session persistence for automatic login and session recovery
+- Built protected navigation flow based on authentication state (logged-in / logged-out screens)
+- Controlled screen access dynamically depending on user authentication status
+- Developed full backend integration using Firebase for CRUD operations
+- Used Axios for API communication 
+- Implemented loading and error handling overlays for async operations
+- Ensured user-specific data separation using authentication context
+
+This module helped me to understand how Firebase authentication works and how to create protected pages.
